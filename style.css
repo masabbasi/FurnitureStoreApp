@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfbfbf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background-color: #fdfdff;
+    border-radius: 10px;
+    width: 191px;
+    height: 300px;
+    margin: 40px auto;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.khat,
+.buy {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 21%);
+    padding: 5px;
+}
+
+.fa-bars,
+.fa-shopping-bag,
+.fa-arrow-right {
+    font-size: 8px;
+}
+
+.arrival {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px 4px 6px;
+    margin: 0px 0px 13px;
+}
+
+.arrival-down {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mahsool {
+    width: 75px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 8px 20px 0px rgb(0 0 0 / 7%);
+}
+
+.tasvir {
+    margin: -15px 14px;
+    min-height: 64px;
+}
+
+.tasvir img {
+    width: 90%;
+}
+
+.new {
+    border-radius: 4px;
+    background-color: #1f73c9;
+    color: white;
+    width: 24px;
+    height: 12px;
+    padding: 3px 6px;
+    margin: 15px 6px 8px;
+    font-size: 6px;
+    font-weight: bold;
+    box-shadow: inset 0px 0px 1px 0px rgb(0 0 0 / 41%);
+}
+
+.onvan {
+    font-size: 7px;
+    font-weight: bold;
+    margin: 0px 6px;
+
+}
+
+.fa-star {
+    font-size: 4px;
+    color: #bd831c;
+}
+
+.paein .balaye-gheymat {
+    font-size: 9px;
+    font-weight: bold;
+    margin: 7px 6px;
+}
+
+.paein .gheymat {
+    color: #dddce1;
+    font-size: 8px;
+    margin: -5px 6px;
+}
+
+.collection {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px 4px 6px;
+    margin: -8px 0px -1px;
+}
+
+.collection-down {
+    display: flex;
+    justify-content: flex-end;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: -1px 8px 20px 0px rgb(0 0 0 / 7%);
+}
+
+.collection-down img {
+    width: 25%;
+}
